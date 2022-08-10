@@ -4,10 +4,10 @@ interface Scholar {
   cohortNumber: number;
 }
 
-function introduceScholar(scholar: Scholar): string {
+function introduceScholar({fName: string, lName: string, cohortNumber: number}): string {
   // complete function
   // use object destructuring, for practice!
-  return "fails test right now";
+  return "this is " + fname "from cohort " + cohortNumber;
 }
 
 export default introduceScholar;
